@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <script>
+    // 1. scores 배열
+    let scores = [80, 90, 70, 85, 95, 88];
+
+    // 2. 총점
+    let totalScore = 0;
+
+    for (let i = 0; i < scores.length; i++) {
+      totalScore += scores[i];
+    }
+
+    // 3. 평균
+    let averageScore = totalScore / scores.length;
+
+    console.log("총점:", totalScore);
+    console.log("평균:", averageScore);
+  </script>
+
+</body>
+</html>
